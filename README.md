@@ -28,25 +28,5 @@ Gift TypeLetter TypeBody RequirementStockTax/Ack ComboMust list shares, high/low
 Note: Stock can be the vehicle for any gift type. When it is, stock body requirements layer on top of the primary gift type rules.
 
 
-Tech Stack
 
-Vanilla HTML, CSS, JavaScript — zero frameworks, zero build steps
-Google Fonts (DM Serif Display + DM Sans) for typography
-Fully self-contained — copy the .html file anywhere and it works
-
-
-Use Case
-This tool was built to support a conversation with a letter management software vendor about whether their platform could handle the full conditional logic this workflow requires. The five key capability questions surfaced were:
-
-Can templates inject different body copy based on gift type (stock data, IRA language, event details, tribute language)?
-Can one gift record automatically generate two letters with different templates and tax language (tribute scenario)?
-Can the system suppress tax language for DAF gifts regardless of the standard threshold rule?
-Can signer routing read a prospect assignment field to route to the correct signatory?
-Can an automatic digital receipt and a separate paper letter be coordinated without duplicate tax language?
-
-
-Files
-FileDescriptiongift_acknowledgement_decision_tree.htmlThe interactive decision tree — open in any browsergift_acknowledgement_decision_tree.pptx7-slide PowerPoint deck covering the full workflowgift_acknowledgement_decision_tree.docxWord document with full decision tables for referencegift_acknowledgement_decision_tree.mdMermaid diagram code for import into Lucidchart or similar tools
-
-Background
 Higher education advancement offices process gifts from dozens of sources — online giving platforms, wire transfers, stock donations, donor advised funds, IRA charitable rollovers, event registrations, and more. Each source carries different tax implications, different letter requirements, and different approval chains. This project documents and operationalizes that logic in a format that's easy to share, easy to use, and easy to hand off.
