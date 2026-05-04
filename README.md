@@ -19,7 +19,7 @@ Mobile-friendly — responsive layout works on phones and tablets
 
 Decision Logic Covered
 Channel
-ChannelUnder $250$250 or moreOnlineAuto tax receipt onlyAuto receipt + paper Tax/Ack Combo letterOfflineN/A (all receive letters)Paper Tax/Ack Combo letter
+ChannelUnder $250 or more OnlineAuto tax receipt onlyAuto receipt + paper Tax/Ack Combo letterOfflineN/A (all receive letters)Paper Tax/Ack Combo letter
 Signature Authority
 Gift AmountStandard DonorProspect-Managed Donor$250 – $999Director of Donor RelationsProspect Manager or Sr. Director of Development$1,000 – $9,999AVP (mid-level officer)AVP (mid-level officer)$10,000 – $74,999Vice PresidentVice President$75,000+University PresidentUniversity President
 Special Gift Type Modifiers
