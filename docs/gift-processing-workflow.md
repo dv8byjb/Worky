@@ -18,28 +18,28 @@ flowchart TD
     %% ONLINE - Standard path
     G -->|No| H{Amount?}
     H -->|$250–$999| H1[Dir. of Donor Relations\nsigns combo letter]
-    H -->|$1,000–$9,999| H2[AVP Jacob\nsigns combo letter]
-    H -->|$10,000–$74,999| H3[VP Stephanie\nsigns combo letter]
-    H -->|$75,000+| H4[President Frances\nsigns combo letter]
+    H -->|$1,000–$9,999| H2[AVP JK\nsigns combo letter]
+    H -->|$10,000–$74,999| H3[VP SC\nsigns combo letter]
+    H -->|$75,000+| H4[President FB\nsigns combo letter]
 
     %% ONLINE - Prospect managed
     G -->|Yes| I{Amount?}
     I -->|Under $1,000| I1[Prospect Mgr or\nSr. Dir. of Dev.\nsigns combo letter]
-    I -->|$1,000–$9,999| I2[AVP Jacob\nsigns combo letter]
+    I -->|$1,000–$9,999| I2[AVP JK\nsigns combo letter]
 
     H1 & H2 & H3 & H4 & I1 & I2 --> OL([Paper Tax/Ack\nCombo Letter sent])
 
     %% OFFLINE - Standard path
     F -->|No| J{Amount?}
     J -->|$250–$999| J1[Dir. of Donor Relations\nsigns combo letter]
-    J -->|$1,000–$9,999| J2[AVP Jacob\nsigns combo letter]
-    J -->|$10,000–$74,999| J3[VP Stephanie\nsigns combo letter]
-    J -->|$75,000+| J4[President Frances\nsigns combo letter]
+    J -->|$1,000–$9,999| J2[AVP JK\nsigns combo letter]
+    J -->|$10,000–$74,999| J3[VP SC\nsigns combo letter]
+    J -->|$75,000+| J4[President FB\nsigns combo letter]
 
     %% OFFLINE - Prospect managed
     F -->|Yes| K{Amount?}
     K -->|Under $1,000| K1[Prospect Mgr or\nSr. Dir. of Dev.\nsigns combo letter]
-    K -->|$1,000–$9,999| K2[AVP Jacob\nsigns combo letter]
+    K -->|$1,000–$9,999| K2[AVP JK\nsigns combo letter]
 
     J1 & J2 & J3 & J4 & K1 & K2 --> OFL([Paper Tax/Ack\nCombo Letter sent])
 
@@ -50,7 +50,7 @@ flowchart TD
 
     MOD -->|Stock Gift| STK[Add to body:\nShares, High/Low/Median value\nTax/Ack Combo]
     MOD -->|IRA Gift| IRA[Add to body:\nIRA charitable distribution\nlanguage — Tax/Ack Combo]
-    MOD -->|DAF Gift| DAF[Ack Only\nNO tax language\nConfirm with Jacob if needed]
+    MOD -->|DAF Gift| DAF[Ack Only\nNO tax language\nConfirm with JK if needed]
     MOD -->|Legends Gala| GAL[Tax/Ack Combo\nAdd to body:\nTickets, tax-deductible amt,\nwhat purchased & donated to]
     MOD -->|Tribute Gift| TRIB{Tribute?}
 
